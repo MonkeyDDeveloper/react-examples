@@ -1,0 +1,74 @@
+article.user-card {
+    display: flex;
+    min-width: 250px;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0.5rem;
+}
+
+header.user-card-header {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    gap: 0.5rem;
+}
+
+img.user-card-header-img {
+    max-width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+section.user-card-header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+    margin: 0;
+}
+
+section.user-card-header-info p {
+    margin: 0;
+}
+
+section.user-card-actions {
+    display: flex;
+    margin: 0;
+}
+
+button.user-card-actions-button {
+    padding: 0.5rem;
+    border: thin solid #fff;
+    min-width: 80px;
+    border-radius: 0.50rem;
+    background-color: #242424;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+button.user-card-actions-button:hover {
+    background-color: rgba(0, 0, 255, 0.25);
+    cursor: pointer;
+}
+
+button.user-card-actions-button.user-card-actions-button-following {
+    background-color: #fff;
+    color: #242424;
+}
+
+button.user-card-actions-button.user-card-actions-button-following:hover {
+    background-color: rgba(255, 0, 0, 0.25);
+    color: #fff;
+}
+
+span.user-card-actions-button-text-stop-following {
+    display: none;
+}
+
+button.user-card-actions-button.user-card-actions-button-following:hover span.user-card-actions-button-text-stop-following {
+    display: inline;
+}
+
+button.user-card-actions-button.user-card-actions-button-following:hover span.user-card-actions-button-text {
+    display: none;
+}

@@ -1,0 +1,29 @@
+.products {
+    list-style-type: none;
+    display: grid;
+    width: 100%;
+    padding: 0;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(150px, 1fr)
+    );
+    gap: 1rem;
+}
+
+.product-button {
+    width: 100%;
+}
+
+.product {
+    padding: .5rem;
+    border-radius: .5rem;
+    border: thin solid gray;
+}
+
+.product-visible {
+    display: block
+}
+
+.product-hidden {
+    display: none;
+}

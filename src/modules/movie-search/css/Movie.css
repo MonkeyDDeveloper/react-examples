@@ -1,0 +1,63 @@
+.movie-searcher {
+    text-align: center;
+}
+
+.movie-searcher h1 {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+/* .movie-searcher .form input {
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    border-radius: .5rem;
+    background-color: transparent;
+}
+
+.movie-searcher .form button {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background-color: transparent;
+    border: 1px solid;
+} */
+
+.movie-searcher .form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.movie-searcher input {
+    margin: 0;
+}
+
+.movies {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.movie { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movie p, .movie h2 {
+    margin: 0
+}
+
+.movie header {
+    margin-bottom: .5rem;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
